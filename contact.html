@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İletişim — Goodieflow</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <div class="logo-mark">
+      <img src="src/assets/logo.png" alt="Goodieflow Logo">
+    </div>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="about.html">Hakkımızda</a>
+    <a href="contact.html">İletişim</a>
+  </nav>
+</header>
+
+<main style="padding-top:140px">
+
+  <section class="section container visible">
+    <h2 class="section-title">Bizimle İletişime Geçin</h2>
+    <p class="section-subtitle">Projenizi dinlemek ve ihtiyaçlarınıza özel çözümler sunmak için buradayız.</p>
+
+    <p><strong>E-posta:</strong> info@goodieflow.ai</p>
+    <p><strong>Telefon:</strong> +90 5xx xxx xx xx</p>
+
+    <form action="https://formsubmit.co/youremail@example.com" method="POST" style="margin-top:18px;max-width:640px">
+      <input type="hidden" name="_captcha" value="false">
+
+      <input name="name" placeholder="İsim" required 
+             style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);margin-bottom:10px;background:transparent;color:var(--text)">
+
+      <input name="email" placeholder="E-posta" required 
+             style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);margin-bottom:10px;background:transparent;color:var(--text)">
+
+      <textarea name="message" placeholder="Mesaj" rows="6"
+                style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:transparent;color:var(--text)"></textarea>
+
+      <button class="btn primary" type="submit" style="margin-top:12px">Gönder</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2025 Goodieflow — AI Automation Agency
+  </div>
+</footer>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
